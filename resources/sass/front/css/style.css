@@ -1,0 +1,143 @@
+body{
+  direction: rtl;
+  font-family: Vazir !important;
+}
+@font-face{
+  font-family: Vazir;
+  src: url('../../fonts/Vazir.ttf');
+}
+
+.blue{
+  background: #19b5fe;
+  color: #fff;
+}
+
+
+.img1{
+  width: 100px;
+  height: 100px;
+}
+
+#main-header .nav-link {
+    color: #fff;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.card .blue a{
+  background: #19b5fe;
+}
+
+.dropdown-menu {
+    position: relative;
+}
+
+.dropdown-menu>.dropdown {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    direction: rtl;
+}
+
+
+
+.dropdown-menu:hover>a:after {
+    border-left-color: #fff;
+}
+
+/* FOOTER */
+
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    background: #3c3d41;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    font-size: 32px;
+    color:  #19b5fe;
+    padding: 5px;
+
+}
+
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .hover:hover {
+    color: #0077e2;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
